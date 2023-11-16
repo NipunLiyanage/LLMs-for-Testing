@@ -1,0 +1,4 @@
+streamlit-extras
+python-dotenv
+langchain
+openai
