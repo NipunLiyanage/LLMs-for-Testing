@@ -12,7 +12,9 @@ st.set_page_config(
 )
 
 st.title("Test Case Generator")
-
+model = 'GPT-3.5 Turbo'
+st.selectbox('Select the LLM Model to be used',('GPT-3.5 Turbo', 'Google Gemini Pro'),key = 'llmModel',index=0)
+st.session_state.model = model
 st.write('Please Select the type of tests you want to run')
 
 
